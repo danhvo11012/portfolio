@@ -74,7 +74,8 @@ h6 {
 }
 
 .stretch100vh {
-  height: 100vh;
+  display: inline-block;
+  height: auto;
 }
 
 .iconify {
@@ -728,7 +729,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #skills .box {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 /* #skills .icon {
@@ -776,7 +777,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #skills .skill-block {
   margin-top: 50px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 /* Projects Section
@@ -1088,12 +1089,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-@media (min-width: 992px) {
-  #testimonials .testimonial-item p {
-    width: 80%;
-  }
-}
-
 @media (min-width: 1024px) {
   #header #logo {
     padding-left: 60px;
@@ -1109,14 +1104,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #nav-menu-container {
-    padding-right: 60px;
-  }
+    padding-right: 60px;}
 }
 
 @media (max-width: 768px) {
+
+  /* For mobile phone screens */
   .back-to-top {
     bottom: 15px;
   }
+
+  /* #nav-menu-container a {
+    font-size: 30px;
+  } */
 
   #header #logo h1 {
     font-size: 28px;
