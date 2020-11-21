@@ -99,7 +99,7 @@
         var top_space = 0;
 
         if ($('#header').length) {
-          top_space = 92;
+          top_space = 72;
 
           if (! $('#header').hasClass('header-scrolled')) {
             top_space = top_space - 20;
